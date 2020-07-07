@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ASPCore.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,5 +13,8 @@ namespace ASPCore.Data
             : base(options)
         {
         }
+        public DbSet<Team> Teams { get; set; }
+        public DbSet<Player> Players { get; set; }
+
     }
 }
