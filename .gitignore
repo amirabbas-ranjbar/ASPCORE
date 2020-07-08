@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 
 ASPCore/appsettings.json
+ASPCore/appsettings.Development.json
